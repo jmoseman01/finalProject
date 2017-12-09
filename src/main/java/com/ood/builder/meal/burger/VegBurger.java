@@ -1,0 +1,20 @@
+package com.ood.builder.meal.burger;
+
+import com.ood.interfaces.Item;
+import com.ood.interfaces.Packing;
+
+public class VegBurger extends Burger {
+
+	@Override
+	public String name() {
+		// TODO Auto-generated method stub
+		return "Veg Burger";
+	}
+
+	@Override
+	public float price() {
+		// TODO Auto-generated method stub
+		return 25.0f;
+	}
+
+}
